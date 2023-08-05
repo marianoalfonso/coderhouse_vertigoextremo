@@ -9,6 +9,11 @@ body {
 .container {
   margin-bottom: 20px;
 }
+.container h1 {
+  text-align: center;
+  margin-top: 14px;
+  color: rgb(202, 111, 7);
+}
 .container img:hover {
   transition: 1s;
   transform: scale(1.03);

@@ -14,6 +14,11 @@ body {
 	}
 }
 .container {
+	h1 {
+		text-align: center;
+		margin-top: 14px;
+		color: rgb(202, 111, 7);
+	}
 	margin-bottom: 20px;
 	img {
 		&:hover {

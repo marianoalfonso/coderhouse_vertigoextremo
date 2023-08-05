@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../scss/equipamiento.scss","../scss/partials/_variables.scss"],"names":[],"mappings":"AAOA;EACC,kBCLgC;;;ADQhC;EACC,kBATmB;;;AAYrB;EACC;;AAEC;EACC;EACA;EACA;EACA,cAlBc;;;AAwBhB;EACC;EACA,cA1Be","file":"equipamiento.css"}
+{"version":3,"sourceRoot":"","sources":["../scss/equipamiento.scss","../scss/partials/_variables.scss"],"names":[],"mappings":"AAOA;EACC,kBCLgC;;;ADQhC;EACC,kBATmB;;;AAYrB;EAMC;;AALA;EACC;EACA;EACA;;AAIA;EACC;EACA;EACA;EACA,cAvBc;;;AA6BhB;EACC;EACA,cA/Be","file":"equipamiento.css"}
