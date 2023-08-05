@@ -1,0 +1,42 @@
+body {
+  background-image: url("../assets/images/bckgrounds/bck_circuitos_01.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+section .circuito {
+  width: 100%;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+
+.container h1 {
+  text-align: center;
+  margin-top: 14px;
+  color: rgb(202, 111, 7);
+}
+.container table {
+  margin-top: 15px;
+}
+.container table img {
+  width: 30px;
+  height: 30px;
+}
+.container table .mapa img:hover {
+  transition: 300ms;
+  transform: scale(1.4) rotate(20deg);
+}
+
+@media screen and (max-width: 400px) {
+  section {
+    padding: 50px;
+  }
+  .circuito .container {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=circuito.css.map */

@@ -1,0 +1,81 @@
+@import "partials/reset";
+@import "partials/variables";
+
+$color_1: rgb(255, 255, 255);
+$color_2: orange;
+
+header {
+	background-color: $commonBackground-color_1;
+}
+.navbar {
+	ul {
+		list-style: none;
+		padding: 0;
+		margin: 15px;
+		li {
+			display: inline;
+			padding: 10px;
+			margin-left: 10px;
+			a {
+				color: $color_1;
+				text-decoration: none;
+				font-size: 19px;
+			}
+		}
+	}
+	li {
+		a {
+			&:hover {
+				transition: 300ms;
+				transform: scale(1.4);
+				color: $color_2;
+			}
+		}
+	}
+}
+footer {
+	.container {
+		ul {
+			li {
+				a {
+					&:hover {
+						transition: 300ms;
+						background-color: $commonBackground-color_2;
+					}
+				}
+			}
+		}
+	}
+}
+@media screen and (max-width: 990px) {
+	.navbar {
+		ul {
+			li {
+				a {
+					font-size: 15px;
+				}
+			}
+		}
+		.navbar-toggler {
+			// background-color: $commonBackground-color_2;
+			background-color: white !important;
+			color: black;
+		}
+		li {
+			a {
+				&:hover {
+					transition: 300ms;
+					transform: scale(1.1);
+					color: $color_2;
+				}
+			}
+		}
+	}
+	.contenido {
+		.flash {
+			.col {
+				font-size: 10px;
+			}
+		}
+	}
+}

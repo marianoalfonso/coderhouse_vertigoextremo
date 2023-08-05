@@ -1,0 +1,24 @@
+body {
+  background-color: rgba(15, 12, 12, 0.952);
+}
+
+.contenido .row {
+  background-color: red;
+}
+
+.container {
+  margin-bottom: 20px;
+}
+.container img:hover {
+  transition: 1s;
+  transform: scale(1.03);
+  border-style: solid 3px;
+  border-color: orange;
+}
+
+.imgModales .modal-content {
+  border-style: solid 7px;
+  border-color: orange;
+}
+
+/*# sourceMappingURL=equipamiento.css.map */

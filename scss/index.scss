@@ -1,0 +1,28 @@
+@import "partials/mixins";
+
+
+$color_1: white;
+$background-color_1: black;
+
+.carrusel {
+	.mensaje {
+		@include mensaje(rgba(0, 0, 0, 0.199), 20px, white)
+	}
+}
+
+.contenido {
+	.row {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		background-color: $background-color_1;
+		color: $color_1;
+	}
+	.col {
+		margin: 10px;
+	}
+	img {
+		padding: 20px;
+	}
+}

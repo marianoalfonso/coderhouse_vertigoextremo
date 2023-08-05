@@ -1,0 +1,46 @@
+body {
+  background-image: url("../assets/images/bckgrounds/bck_contacto_01.jpg");
+}
+
+.container form {
+  padding: 30px;
+  margin-bottom: 60px;
+}
+
+form {
+  background-color: rgba(8, 0, 0, 0.281);
+}
+form .form-floating {
+  position: relative;
+}
+form .form-floating .icono {
+  position: absolute;
+  top: 50%;
+  left: 1.25rem;
+}
+form .form-floating label {
+  color: black;
+  left: 0.5rem;
+  padding-left: 3.5rem;
+}
+form .form-floating .form-control {
+  color: black;
+  left: 0.5rem;
+  padding-left: 3.5rem;
+}
+form .form-floating input:focus {
+  background: rgba(83, 78, 78, 0.6784313725);
+  color: white;
+}
+form .form-floating textarea:focus {
+  background: rgba(83, 78, 78, 0.5764705882);
+  color: white;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 10px;
+}
+
+/*# sourceMappingURL=contacto.css.map */

@@ -1,0 +1,16 @@
+.contenido .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    color: white;
+  }
+
+.contenido .col {
+    margin: 10px;
+}
+
+.contenido img {
+    padding: 20px;
+}

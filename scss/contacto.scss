@@ -1,0 +1,54 @@
+@import "partials/variables";
+
+$color_1: black;
+$color_2: white;
+$background-color_1: rgba(8, 0, 0, 0.281);
+
+body {
+	background-image: url($contactoBackgroundImage);
+}
+.container {
+	form {
+		padding: 30px;
+		margin-bottom: 60px;
+	}
+}
+form {
+	background-color: $background-color_1;
+	.form-floating {
+		position: relative;
+		.icono {
+			position: absolute;
+			top: calc(50%);
+			left: 1.25rem;
+		}
+		label {
+			color: $color_1;
+			left: .5rem;
+			padding-left: 3.5rem;
+		}
+		.form-control {
+			color: $color_1;
+			left: .5rem;
+			padding-left: 3.5rem;
+		}
+		input {
+			&:focus {
+				background: #534e4ead;
+				color: $color_2;
+			}
+		}
+		textarea {
+			&:focus {
+				background: #534e4e93;
+				color: $color_2;
+			}
+		}
+	}
+}
+
+label {
+	display: block;
+	margin-bottom: 5px;
+	font-size: 10px;
+}

@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VertigoExtremo - circuito</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/circuito.css">
+
+</head>
+<body>
+    <header>
+        <div class="container">
+
+            <nav class="navbar navbar-expand-lg bg-dark text-white">  <!-- bg-light /  bg-dark : clases de background -->
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">
+                    <img class="logo img-fluid" src="../assets/images/varios/logo.png" alt="logo" width="250px">
+                  </a>
+                  <!-- menu hamburguesa -->
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span><i class="fas fa-bars mr-3"></i></span>
+                  </button>
+
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">   <!-- me-auto: margin end auto / ms-auto: margin start auto -->
+                      
+                        <!-- link inicio -->
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">inicio</a>
+                      </li>
+                      
+                      <!-- link equipamiento -->
+                      <li class="nav-item">
+                        <a class="nav-link" href="./equipamiento.html">equipamiento</a>
+                      </li>
+
+                      <!-- link circuito -->
+                      <li class="nav-item">
+                        <a class="nav-link" href="./circuito.html">circuito</a>
+                      </li>
+
+                      <!-- link multimedia -->
+                      <li class="nav-item">
+                        <a class="nav-link" href="./multimedia.html">multimedia</a>
+                      </li>
+
+                      <!-- link contacto -->
+                      <li class="nav-item">
+                        <a class="nav-link" href="./contacto.html">contacto</a>
+                      </li>
+
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+
+        </div>     
+    </header>
+
+    <section class="circuito">
+        <div class="container">
+            <h1>Circuito MTB segundo semestre 2023</h1>
+            <div class="table-responsive col-12">
+                <table class="table table-light table-striped table-borderless table-hover">
+                    <thead>
+                    <tr>
+                        <th scope="col">fecha</th>
+                        <th scope="col">circuito</th>
+                        <th scope="col">pais</th>
+                        <th scope="col">categoria</th>
+                        <th scope="col">dificultad</th>
+                        <th scope="col">puntos</th>
+                        <th scope="col">mapa</th>
+                    </tr>
+                    </thead>
+                    <tbody class="table-group-divider">
+                    <tr>
+                        <th scope="row">14/06/2023</th>
+                        <td>Paso de los Reyes</td>
+                        <td><img class="img-fluid" src="../assets/images/banderas/argentina.png" alt="bandera argentina"> Argentina</td>
+                        <td>world championship</td>
+                        <td>medio</td>
+                        <td>750</td>
+                        <td>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#modalImage1">
+                                <div class="mapa">
+                                    <img class="img-fluid" src="../assets/images/varios/mapa.png" alt="mapa">
+                                </div>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">22/06/2023</th>
+                        <td>La Esquina de las Serpientes</td>
+                        <td><img class="img-fluid" src="../assets/images/banderas/argentina.png" alt="bandera argentina"> Argentina</td>
+                        <td>world championship</td>
+                        <td>medio</td>
+                        <td>750</td>
+                        <td>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#modalImage2">
+                                <div class="mapa">
+                                    <img class="img-fluid" src="../assets/images/varios/mapa.png" alt="mapa">
+                                </div>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">30/06/2023</th>
+                        <td>Espina de Cactus</td>
+                        <td><img class="img-fluid" src="../assets/images/banderas/chile.png" alt="bandera chile"> Chile</td>
+                        <td>regional championship</td>
+                        <td>media</td>
+                        <td>800</td>
+                        <td>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#modalImage3">
+                                <div class="mapa">
+                                    <img class="img-fluid" src="../assets/images/varios/mapa.png" alt="mapa">
+                                </div>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">07/07/2023</th>
+                        <td>Parada de Relax</td>
+                        <td><img class="img-fluid" src="../assets/images/banderas/peru.png" alt="bandera peru"> Peru</td>
+                        <td>world championship</td>
+                        <td>baja</td>
+                        <td>600</td>
+                        <td>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#modalImage4">
+                                <div class="mapa">
+                                    <img class="img-fluid" src="../assets/images/varios/mapa.png" alt="mapa">
+                                </div>
+                            </a>
+                        </td>
+                    </tr>                    
+                    <tr>
+                        <th scope="row">12/07/2023</th>
+                        <td>Reyes de la Colina</td>
+                        <td><img class="img-fluid" src="../assets/images/banderas/ecuador.png" alt="bandera ecuador"> Ecuador</td>
+                        <td>regional championship</td>
+                        <td>media</td>
+                        <td>1000</td>
+                        <td>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#modalImage5">
+                                <div class="mapa">
+                                    <img class="img-fluid" src="../assets/images/varios/mapa.png" alt="mapa">
+                                </div>
+                            </a>
+                        </td>
+                    </tr> 
+                    <tr>
+                        <th scope="row">18/07/2023</th>
+                        <td>Stratton (desde la altura)</td>
+                        <td><img class="img-fluid" src="../assets/images/banderas/ecuador.png" alt="bandera ecuador"> Ecuador</td>
+                        <td>regional championship</td>
+                        <td>alta</td>
+                        <td>1620</td>
+                        <td>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#modalImage6">
+                                <div class="mapa">
+                                    <img class="img-fluid" src="../assets/images/varios/mapa.png" alt="mapa">
+                                </div>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">22/07/2023</th>
+                        <td>Chatel (Alianza de Caminos)</td>
+                        <td><img class="img-fluid" src="../assets/images/banderas/colombia.png" alt="bandera colombia"> Colombia</td>
+                        <td>world championship</td>
+                        <td>avanzada</td>
+                        <td>1800</td>
+                        <td>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#modalImage7">
+                                <div class="mapa">
+                                    <img class="img-fluid" src="../assets/images/varios/mapa.png" alt="mapa">
+                                </div>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">28/07/2023</th>
+                        <td>Deseos de Velocidad</td>
+                        <td><img class="img-fluid" src="../assets/images/banderas/venezuela.png" alt="bandera venezuela"> Venezuela</td>
+                        <td>regional championship</td>
+                        <td>media</td>
+                        <td>870</td>
+                        <td>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#modalImage8">
+                                <div class="mapa">
+                                    <img class="img-fluid" src="../assets/images/varios/mapa.png" alt="mapa">
+                                </div>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">03/08/2023</th>
+                        <td>Domando el Viento</td>
+                        <td><img class="img-fluid" src="../assets/images/banderas/venezuela.png" alt="bandera venezuela"> Venezuela</td>
+                        <td>world championship</td>
+                        <td>baja</td>
+                        <td>290</td>
+                        <td>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#modalImage9">
+                                <div class="mapa">
+                                    <img class="img-fluid" src="../assets/images/varios/mapa.png" alt="mapa">
+                                </div>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">12/08/2023</th>
+                        <td>Curacavi (Esperando la Gloria)</td>
+                        <td><img class="img-fluid" src="../assets/images/banderas/panama.png" alt="bandera panama"> Panama</td>
+                        <td>world championship</td>
+                        <td>media</td>
+                        <td>942</td>
+                        <td>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#modalImage10">
+                                <div class="mapa">
+                                    <img class="img-fluid" src="../assets/images/varios/mapa.png" alt="mapa">
+                                </div>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">16/08/2023</th>
+                        <td>Descenso del Viento</td>
+                        <td><img class="img-fluid" src="../assets/images/banderas/mexico.png" alt="bandera mexico"> Mexico</td>
+                        <td>world championship</td>
+                        <td>alta</td>
+                        <td>1114</td>
+                        <td>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#modalImage11">
+                                <div class="mapa">
+                                    <img class="img-fluid" src="../assets/images/varios/mapa.png" alt="mapa">
+                                </div>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">18/08/2023</th>
+                        <td>Xawun Weney (Calzada del Duende)</td>
+                        <td><img class="img-fluid" src="../assets/images/banderas/mexico.png" alt="bandera mexico"> Mexico</td>
+                        <td>regional championship</td>
+                        <td>baja</td>
+                        <td>110</td>
+                        <td>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#modalImage12">
+                                <div class="mapa">
+                                    <img class="img-fluid" src="../assets/images/varios/mapa.png" alt="mapa">
+                                </div>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">03/09/2023</th>
+                        <td>Purgatory Bike Park</td>
+                        <td><img class="img-fluid" src="../assets/images/banderas/usa.png" alt="bandera usa"> Usa</td>
+                        <td>world championship</td>
+                        <td>media</td>
+                        <td>766</td>
+                        <td>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#modalImage13">
+                                <div class="mapa">
+                                    <img class="img-fluid" src="../assets/images/varios/mapa.png" alt="mapa">
+                                </div>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">06/09/2023</th>
+                        <td>Rochetta Belbo</td>
+                        <td><img class="img-fluid" src="../assets/images/banderas/usa.png" alt="bandera usa"> Usa</td>
+                        <td>world championship</td>
+                        <td>alta</td>
+                        <td>1766</td>
+                        <td>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#modalImage14">
+                                <div class="mapa">
+                                    <img class="img-fluid" src="../assets/images/varios/mapa.png" alt="mapa">
+                                </div>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">11/09/2023</th>
+                        <td>Windy Roads</td>
+                        <td><img class="img-fluid" src="../assets/images/banderas/usa.png" alt="bandera usa"> Usa</td>
+                        <td>regional championship</td>
+                        <td>media</td>
+                        <td>430</td>
+                        <td>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#modalImage15">
+                                <div class="mapa">
+                                    <img class="img-fluid" src="../assets/images/varios/mapa.png" alt="mapa">
+                                </div>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">20/09/2023</th>
+                        <td>Blueridge Snow Falls</td>
+                        <td><img class="img-fluid" src="../assets/images/banderas/canada.png" alt="bandera canada"> Canada</td>
+                        <td>World championship</td>
+                        <td>media</td>
+                        <td>900</td>
+                        <td>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#modalImage16">
+                                <div class="mapa">
+                                    <img class="img-fluid" src="../assets/images/varios/mapa.png" alt="mapa">
+                                </div>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">20/09/2023</th>
+                        <td>Colorado Indian Territory</td>
+                        <td><img class="img-fluid" src="../assets/images/banderas/canada.png" alt="bandera canada"> Canada</td>
+                        <td>World championship</td>
+                        <td>alta</td>
+                        <td>2100</td>
+                        <td>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#modalImage17">
+                                <div class="mapa">
+                                    <img class="img-fluid" src="../assets/images/varios/mapa.png" alt="mapa">
+                                </div>
+                            </a>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- imagenes modales de los circuitos -->
+    <section class="imgModales">
+        <!-- galeria de imagenes en formato modal -->
+        <div tabindex="-1" aria-labelledby="modalImage1" aria-hidden="true" class="modal fade" id="modalImage1">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <img src="../assets/images/circuitos/circuito_01.jpg" alt="circuito_01">
+                </div>
+            </div>
+        </div>
+        <div tabindex="-1" aria-labelledby="modalImage2" aria-hidden="true" class="modal fade" id="modalImage2">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <img src="../assets/images/circuitos/circuito_02.jpg" alt="circuito_02">
+                </div>
+            </div>
+        </div>
+        <div tabindex="-1" aria-labelledby="modalImage3" aria-hidden="true" class="modal fade" id="modalImage3">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <img src="../assets/images/circuitos/circuito_03.jpg" alt="circuito_03">
+                </div>
+            </div>
+        </div>
+        <div tabindex="-1" aria-labelledby="modalImage4" aria-hidden="true" class="modal fade" id="modalImage4">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <img src="../assets/images/circuitos/circuito_04.jpg" alt="circuito_04">
+                </div>
+            </div>
+        </div>
+        <div tabindex="-1" aria-labelledby="modalImage5" aria-hidden="true" class="modal fade" id="modalImage5">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <img src="../assets/images/circuitos/circuito_05.jpg" alt="circuito_05">
+                </div>
+            </div>
+        </div>
+        <div tabindex="-1" aria-labelledby="modalImage6" aria-hidden="true" class="modal fade" id="modalImage6">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <img src="../assets/images/circuitos/circuito_06.jpg" alt="circuito_06">
+                </div>
+            </div>
+        </div>
+        <div tabindex="-1" aria-labelledby="modalImage7" aria-hidden="true" class="modal fade" id="modalImage7">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <img src="../assets/images/circuitos/circuito_07.jpg" alt="circuito_07">
+                </div>
+            </div>
+        </div>
+        <div tabindex="-1" aria-labelledby="modalImage8" aria-hidden="true" class="modal fade" id="modalImage8">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <img src="../assets/images/circuitos/circuito_08.jpg" alt="circuito_08">
+                </div>
+            </div>
+        </div>
+        <div tabindex="-1" aria-labelledby="modalImage9" aria-hidden="true" class="modal fade" id="modalImage9">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <img src="../assets/images/circuitos/circuito_09.jpg" alt="circuito_09">
+                </div>
+            </div>
+        </div>
+        <div tabindex="-1" aria-labelledby="modalImage10" aria-hidden="true" class="modal fade" id="modalImage10">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <img src="../assets/images/circuitos/circuito_10.jpg" alt="circuito_10">
+                </div>
+            </div>
+        </div>
+        <div tabindex="-1" aria-labelledby="modalImage11" aria-hidden="true" class="modal fade" id="modalImage11">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <img src="../assets/images/circuitos/circuito_11.jpg" alt="circuito_11">
+                </div>
+            </div>
+        </div>
+        <div tabindex="-1" aria-labelledby="modalImage12" aria-hidden="true" class="modal fade" id="modalImage12">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <img src="../assets/images/circuitos/circuito_12.jpg" alt="circuito_12">
+                </div>
+            </div>
+        </div>
+        <div tabindex="-1" aria-labelledby="modalImage13" aria-hidden="true" class="modal fade" id="modalImage13">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <img src="../assets/images/circuitos/circuito_13.jpg" alt="circuito_13">
+                </div>
+            </div>
+        </div>
+        <div tabindex="-1" aria-labelledby="modalImage14" aria-hidden="true" class="modal fade" id="modalImage14">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <img src="../assets/images/circuitos/circuito_14.jpg" alt="circuito_14">
+                </div>
+            </div>
+        </div>
+        <div tabindex="-1" aria-labelledby="modalImage15" aria-hidden="true" class="modal fade" id="modalImage15">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <img src="../assets/images/circuitos/circuito_15.jpg" alt="circuito_15">
+                </div>
+            </div>
+        </div>
+        <div tabindex="-1" aria-labelledby="modalImage16" aria-hidden="true" class="modal fade" id="modalImage16">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <img src="../assets/images/circuitos/circuito_16.jpg" alt="circuito_16">
+                </div>
+            </div>
+        </div>
+        <div tabindex="-1" aria-labelledby="modalImage17" aria-hidden="true" class="modal fade" id="modalImage17">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <img src="../assets/images/circuitos/circuito_17.jpg" alt="circuito_17">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="bg-dark text-white pt-2 pb-2">
+        <div class="container text-center text-md-left">
+            <div class="row text-center text-md-left">
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-warning">links</h5>
+                    <p>
+                        <i class="fas fa-bicycle mr-3"></i><a href="https://www.bttbike.com/mtb/265329-mountain-gba-circuitos-bike" class="text-white" style="text-decoration: none;" target="_blank"> mtb Caba</a>
+                    </p>
+                    <p>
+                        <i class="fas fa-bicycle mr-3"></i><a href="https://mtbsalta.com/" class="text-white" style="text-decoration: none;" target="_blank"> mtb Salta</a>
+                    </p>
+                </div>
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-warning">contacto</h5>
+                    <p>
+                        <i class="fas fa-home mr-3"></i> Caba - O'higgins 1999
+                    </p>
+                    <p>
+                        <i class="fas fa-phone mr-3"></i> +54 11 5555-5655
+                    </p>
+                </div>
+
+                <hr class="mb-4">
+                <div class="row align-items-center">
+                    <div class="col-md-7 col-lg-8">
+                        <p>Copyright (©) 2023 - Mariano Alfonso</p>
+                    </div>
+                    <!-- redes sociales -->
+                    <div class="col-md-5 col-lg-4">
+                        <ul class="list-unstyled list-inline">
+                            <li class="list-inline-item">
+                                <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-facebook"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-twitter"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-instagram"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

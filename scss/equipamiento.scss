@@ -1,0 +1,33 @@
+@import 'partials/variables';
+
+$background-color_1: rgb(71, 69, 69);
+$background-color_2: red;
+$border-color_1: orange;
+$border-color_2: white;
+
+body {
+	background-color: $equipamientoBackground-color_1;
+}
+.contenido {
+	.row {
+		background-color: $background-color_2;
+	}
+}
+.container {
+	margin-bottom: 20px;
+	img {
+		&:hover {
+			transition: 1s;
+			transform: scale(1.03);
+			border-style: solid 3px;
+			border-color: $border-color_1;
+		}
+	}
+}
+
+.imgModales {
+	.modal-content {
+		border-style: solid 7px;
+		border-color: $border-color_1;
+	}
+}

@@ -1,0 +1,10 @@
+@mixin dimensionar($ancho, $alto) {
+    width: $ancho;
+    height: $alto;
+}
+
+@mixin mensaje($color_fondo, $redondeo, $color_letra) {
+    background-color: $color_fondo;
+    border-radius: $redondeo;
+    color: $color_letra;
+}
