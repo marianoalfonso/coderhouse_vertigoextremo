@@ -40,12 +40,8 @@ footer .container ul li a:hover {
     font-size: 15px;
   }
   .navbar .navbar-toggler {
-<<<<<<< HEAD
-    background-color: orange;
-=======
-    background-color: white !important;
-    color: black;
->>>>>>> dev
+    background-color: orange !important;
+    color: white;
   }
   .navbar li a:hover {
     transition: 300ms;
